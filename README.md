@@ -1,0 +1,2 @@
+# Resistors
+Preferred resistor values
