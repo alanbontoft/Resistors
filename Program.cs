@@ -12,9 +12,11 @@ namespace core3console
 
             var res = new PreferredResistors();
 
-            res.Range = ResistorRange.E48;
+            // res.Range = ResistorRange.E48;
 
-            res.Range = ResistorRange.E24;
+            // res.Range = ResistorRange.E24;
+
+            var d = res.nearest(1.01);
 
 
         }

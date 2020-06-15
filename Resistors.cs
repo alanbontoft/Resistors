@@ -65,6 +65,25 @@ namespace Resistors
             }
         }
 
+        public double nearest(double value)
+        {
+            int i=1;
+            
+            // step through to find the closest preffered value above 'value' 
+            while ((value > _preferredValues[i]) && (i < ((int)(_range) - 1)))
+            {
+                i++;
+            }
+
+            // check if > last value, which is closest last or 10.0
+            // otherwise...
+            // check which is closest, i or i -1
+
+
+
+            return _preferredValues[i];
+        }
+
 
         
     }
